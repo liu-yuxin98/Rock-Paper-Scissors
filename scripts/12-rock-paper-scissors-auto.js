@@ -1,3 +1,14 @@
+document.querySelector('.js-rock-button')
+  .addEventListener('click', ()=>{
+    pickComputerMove('rock'); // Call the function with 'rock' as the argument
+  })// Add event listener to rock button
+
+
+  document.querySelector('.js-paper-button')
+  .addEventListener('click', ()=>{
+    pickComputerMove('paper'); // Call the function with 'rock' as the argument
+  })// Add event listener to rock button
+
 let isAutoPlay = false; // Flag to track autoplay status
 let intervalId;
 
